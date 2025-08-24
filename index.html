@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>remdom number</title>
+    <title>Guess the Number!</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="box">
-    <input id="inputdata" type="number" placeholder="enter number">
-    <button onclick="chek()">add</button>
+    <div id="hide">                                                                                        
+    <input id="inputdata" type="number" placeholder="Type your guess here...">     
+    <button onclick="chek()">Let's Go!</button>
+    <p id="chnes"></p>
+    </div> 
     <h1 id="result"></h1>
-
+    <p style="font-size:0.95rem;color:#aaa;margin-top:8px;">Ready to play? Enter a number and see if you can guess it!</p>
 </div>
  <script src="index.js"></script>
 </body>
